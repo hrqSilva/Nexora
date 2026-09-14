@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+header img {
+    max-width: 450px !important;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Configuração da página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: #1C2C4E;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #EAEFF2;
+    padding: 20px;
+}
+
+header h1 {
+    color: #1C2C4E;
+}
+
+
+/* Menu */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #1C2C4E;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #22C887;
+}
+
+
+/* Conteúdo */
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+/* Seções */
+
+section {
+    background-color: #EAEFF2;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #2566D4;
+}
+
+section p {
+    font-size: 16px;
+}
+
+
+/* Cards */
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid #22C887;
+    border-radius: 10px;
+}
+
+
+/* Botão */
+
+.btn {
+    background-color: #2566D4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #22C887;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #1C2C4E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
